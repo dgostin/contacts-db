@@ -34,7 +34,8 @@
             <td>{{$contact->firstname}} {{$contact->lastname}}</td>
             <td>{{$contact->email}}</td>
             <td>{{$contact->phone}}</td>
-            <td>{{$contact->notes}}</td>
+            <td>{!! nl2br($contact->notes) !!}</td>
+            
             <td>
                 <a href="{{ route('contacts.edit',$contact->id)}}" class="btn btn-primary">Edit</a>
             </td>

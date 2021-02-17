@@ -38,7 +38,8 @@
             </div>
             <div class="form-group">
                 <label for="notes">Notes:</label>
-                <input type="text" class="form-control" name="notes" value="{{ $contact->notes }}" />
+                <!-- input type="text" class="form-control" name="notes" value="{{ $contact->notes }}" / -->
+                <textarea name="notes" class="form-control">{{ $contact->notes }}</textarea>
             </div>
             <button type="submit" class="btn btn-primary">Update</button>
         </form>

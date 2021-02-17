@@ -36,7 +36,8 @@
           </div>
           <div class="form-group">
               <label for="notes">Notes:</label>
-              <input type="text" class="form-control" name="notes"/>
+              <!-- input type="text" class="form-control" name="notes"/ -->
+              <textarea name="notes" class="form-control"></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Add Contact</button>
       </form>
