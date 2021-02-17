@@ -31,11 +31,11 @@
               <input type="text" class="form-control" name="email"/>
           </div>
           <div class="form-group">
-              <label for="phone">City:</label>
+              <label for="phone">Phone:</label>
               <input type="text" class="form-control" name="phone"/>
           </div>
           <div class="form-group">
-              <label for="notes">Country:</label>
+              <label for="notes">Notes:</label>
               <input type="text" class="form-control" name="notes"/>
           </div>
           <button type="submit" class="btn btn-primary">Add Contact</button>
